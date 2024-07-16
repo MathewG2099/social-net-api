@@ -78,4 +78,12 @@ Each endpoint must include the necessary data in the request body or URL paramet
 - Nodemon: [2.0.12](https://www.npmjs.com/package/nodemon/v/2.0.12)
 - License Badge: [Shields.io](https://shields.io/)
 - Visual Studio Code: [Website](https://code.visualstudio.com/)
+## What I Learned:
+I learned about the creation of a restful Api , creation of end points , Tested API endpoints using Insomnia;Created endpoints for CRUD operations on users, thoughts, and reactions data models.
 
+### Continued Development:
+
+![screen](https://github.com/user-attachments/assets/00cde6f3-4f48-4b1f-890f-fc5d26ebd62e)
+## Author
+
+Follow me on Github at (https://github.com/MathewG2099)
