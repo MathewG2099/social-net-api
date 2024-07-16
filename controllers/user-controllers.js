@@ -69,7 +69,7 @@ removeFriend({ params }, res) {
     )
       .then((dbUserData) => {
         if (!dbUserData) {
-          return res.status(404).json({ message: "No user with this id!" });
+          return res.status(404).json({ message: "No user with this id........." });
         }
         // check if friend was removed
         const removed = !dbUserData.friends.includes(params.friendId);
@@ -83,3 +83,5 @@ removeFriend({ params }, res) {
       .catch((err) => res.status(400).json(err));
   },
 };
+// Export UserController
+module.exports = UserController;
